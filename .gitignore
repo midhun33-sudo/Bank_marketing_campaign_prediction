@@ -1,2 +1,17 @@
 study_note
-./ipynb_checkpoints
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.env/
+
+# VS Code
+.vscode/
+
+# Data files (optional)
+data/
