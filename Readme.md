@@ -6,6 +6,8 @@
 
 https://huggingface.co/spaces/midhun33-sudo/Banking_marketing_campaign_prediction
 
+![Application Home Page](images/home_page.png)
+
 ---
 
 
