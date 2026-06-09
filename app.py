@@ -2,12 +2,20 @@ import streamlit as st
 import sys
 import os
 
-sys.path.append(
-    os.path.abspath("../src")
-)
+# BASE_DIR = os.path.dirname(
+#     os.path.dirname(
+#         os.path.abspath(__file__)
+#     )
+# )
 
-from predict import predict_customer
+# sys.path.append(
+#     os.path.join(
+#         BASE_DIR,
+#         "src"
+#     )
+# )
 
+from src.predict import predict_customer
 
 
 st.set_page_config(
@@ -15,14 +23,13 @@ st.set_page_config(
     page_icon="🏦"
 )
 
-st.title(
-    "🏦 Bank Marketing Campaign Prediction"
-)
+st.title("🏦 Bank Marketing Campaign Prediction")
 
-st.write(
-    "Predict whether a customer will subscribe to a term deposit."
-)
-
+st.write("""
+This application predicts whether a customer is likely
+to subscribe to a term deposit based on customer and
+campaign-related information.
+""")
 
 
 age = st.number_input(

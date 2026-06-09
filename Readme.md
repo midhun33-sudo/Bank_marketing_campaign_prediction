@@ -1,13 +1,14 @@
-# Machine Learning Project: Banking Marketing Campaign Prediction
+# Banking Marketing Campaign Prediction
+
+This project aims to predict whether a customer will subscribe to a term deposit based on information collected during previous banking marketing campaigns.
+
+Using machine learning techniques, the project analyzes customer demographics, financial attributes, and campaign-related factors to identify potential subscribers. The final solution includes data analysis, model development, evaluation, optimization, and deployment through an interactive Streamlit application.
 
 ## Problem Statement
 
-A bank wants to improve the effectiveness of its telemarketing campaigns. These campaigns involve contacting customers via phone calls to promote a financial product (term deposit).
+Banks invest significant resources in marketing campaigns to promote financial products such as term deposits. However, contacting every customer is costly and often results in low conversion rates.
 
-### Business Question
-
-Can we predict whether a customer will subscribe to a term deposit based on their personal and campaign-related information?
-
+The objective of this project is to build a machine learning classification model that can predict whether a customer is likely to subscribe to a term deposit. Such predictions can help banks focus their marketing efforts on high-potential customers and improve campaign effectiveness.
 ---
 
 ## Project Objectives

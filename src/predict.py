@@ -1,15 +1,34 @@
 import joblib
 import pandas as pd
 import numpy as np
+import os
+
+BASE_DIR = os.path.dirname(
+    os.path.dirname(
+        os.path.abspath(__file__)
+    )
+)
 
 
 # Load Model Artifact
 
 # Load Model
-artifact = joblib.load("../models/bank_marketing_final.pkl")
+artifact = joblib.load(
+    os.path.join(
+        BASE_DIR,
+        "models",
+        "bank_marketing_final.pkl"
+    )
+)
 
 # Load Scaler
-scaler = joblib.load("../models/scaler.pkl")
+scaler = joblib.load(
+    os.path.join(
+        BASE_DIR,
+        "models",
+        "scaler.pkl"
+    )
+)
 
 
 model = artifact["model"]
