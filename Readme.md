@@ -428,7 +428,7 @@ banking_marketing_campaign_prediction/
 
 ## 👨‍💻 Author
 
-**Midhun**
+**K. Midhun kumar**
 
 Machine Learning | Data Science | AI Enthusiast
 

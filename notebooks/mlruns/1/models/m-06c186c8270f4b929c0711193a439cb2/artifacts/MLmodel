@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/midhu/OneDrive/Documents/Inno_Python_files/Self_Working_Material/Class_Notes_All/Machine_learning/Projects/banking_marketing_campaign_prediction/notebooks/mlruns/1/models/m-06c186c8270f4b929c0711193a439cb2/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.12
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.1
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-06c186c8270f4b929c0711193a439cb2
+model_size_bytes: 6475181
+model_uuid: m-06c186c8270f4b929c0711193a439cb2
+prompts: null
+run_id: ec94c5d2737d473a8295e59675a9b0dc
+utc_time_created: '2026-07-08 07:37:40.561320'

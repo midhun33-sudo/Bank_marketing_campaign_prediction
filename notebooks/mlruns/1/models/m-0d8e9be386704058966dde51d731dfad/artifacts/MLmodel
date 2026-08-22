@@ -1,0 +1,27 @@
+artifact_path: file:C:/Users/midhu/OneDrive/Documents/Inno_Python_files/Self_Working_Material/Class_Notes_All/Machine_learning/Projects/banking_marketing_campaign_prediction/notebooks/mlruns/1/models/m-0d8e9be386704058966dde51d731dfad/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.skops
+    lgb_version: 4.6.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+    serialization_format: skops
+    skops_trusted_types:
+    - collections.OrderedDict
+    - lightgbm.sklearn.LGBMRegressor
+    - lightgbm.sklearn.LGBMClassifier
+    - lightgbm.basic.Booster
+  python_function:
+    data: model.skops
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.12.12
+mlflow_version: 3.14.0
+model_id: m-0d8e9be386704058966dde51d731dfad
+model_size_bytes: 1405131
+model_uuid: m-0d8e9be386704058966dde51d731dfad
+prompts: null
+run_id: ede818dea2fd4675b5628407aa4ce08d
+utc_time_created: '2026-07-08 07:38:51.103666'
